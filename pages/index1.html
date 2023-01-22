@@ -4,9 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="keywords" content="dialogue, window, form, position">
+  <meta name="description" content="Form Help-request">
+  <title>
+    Dialogue window
+  </title>
 </head>
 <body>
-  
+  <div class="form">
+    <form class="window">
+      <h2 class="title form-title">
+        We would like to help you
+      </h2>
+      <div class="input">
+        <input type="text" name="user-name" class="field" placeholder="Name">
+        <textarea name="message" cols="30" rows="7" class="field" placeholder="Message"
+        ></textarea>
+      </div>
+      <div class="input">
+        <h3 class="title secondary-title">
+          How to answer you?
+        </h3>
+        <input type="tel" name="user-phone-number" class="field" placeholder="Phone number">
+        <input type="email" name="user-email" class="field" placeholder="Email">
+      </div>
+      <button type="submit" class="submit">
+        Send message
+      </button>
+      <button type="button" class="close">
+        x
+      </button>
+    </form>
+  </div>
 </body>
 </html>
