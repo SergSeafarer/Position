@@ -65,10 +65,10 @@ textarea.field {
   background-color: transparent;
   position: absolute;
   top: 30px;
-  left: 595px;
+  right: 30px;
   font-size: 27px;
   line-height: 18px;
-  padding: 7px 7px 7px;
+  padding: 0;
   text-transform: uppercase;
 }
 
